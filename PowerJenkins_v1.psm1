@@ -874,7 +874,7 @@ function Invoke-JenkinsPreFlightChecks {
     }
 
     .OUTPUTS
-    You will receive a Hashtable containing both the crumb and session cookie. Use it for successive actions.
+    A true or false is returned to STDOUT, depending on Jenkins server validity.
     
     .NOTES
     Contact information:
